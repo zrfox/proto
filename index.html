@@ -10,11 +10,18 @@
 <body>
     
 <div class="menu">
-    <div class="input">
+    <div class="inputContainer">
         <form action="" class="form">
-            <label for="city">City</label>
-            <input type="text" id="city" name="city">
-            <button type="submit" class="search-button">Search</button>
+            <div class="top-form">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="Enter a city to get the weather!">
+
+            </div>
+            <div class="bottom-form">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Optional. Increases location accuracy.">
+            </div>
+            <button type="submit" class="search-button">See Forecast</button>
         </form>
     </div>
 </div>

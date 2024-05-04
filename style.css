@@ -1,27 +1,52 @@
 body{
-    background-image: url("proto/pexels-dreamypixel-552789.jpg");
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-position: center;*/
 }
+
 
 .menu{
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 
-
     
 }
 
-.input{
-    backdrop-filter: blur(10px);
-    background: rgba(0,0,0,0.8);
-    backdrop-filter: saturate(180%) blur(10px);
-    padding: 10% 12.5% 10% 12.5% ;
+.inputContainer{
+    background: rgba(172, 172, 172, 0.1);
+    backdrop-filter: saturate(180%) blur(1px);
+    padding: 7% 6.5% 4% 6.5% ;
+    box-shadow: 0 1.8rem 3.7rem;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height:15rem;
+    min-width: 30rem;
 }
 
 .form{
-    display:flexbox;
-    flex-direction: row;
-    height:60%;
+    
+    height: 100%;
+    width: 100%;
+}
+
+label{
+   font-size: xx-large;
+   
+    
+}
+
+input{
+   /* display: flex; */
+    border-radius: 5px;
+    height: 1rem;
+    width: 100%;
+   
 }
