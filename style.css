@@ -5,13 +5,19 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     /*background-position: center;*/
+
 }
 
+.menuParent{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 90vh;
+}
 
 .menu{
-    min-height: 100vh;
-    min-width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
@@ -19,7 +25,7 @@ body{
 }
 
 .inputContainer{
-    background: rgba(172, 172, 172, 0.1);
+    background: rgba(172, 172, 172, 0.5);
     backdrop-filter: saturate(180%) blur(1px);
     padding: 7% 6.5% 4% 6.5% ;
     box-shadow: 0 1.8rem 3.7rem;
@@ -49,4 +55,16 @@ input{
     height: 1rem;
     width: 100%;
    
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 30px;
+    font-size: large;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: rgb(221, 221, 221);
 }
